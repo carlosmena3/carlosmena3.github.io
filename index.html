@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Mena | Desarrollador de Software</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Carlos<span class="dot">.</span>dev</a>
+            
+            <ul class="nav__list">
+                <li><a href="#about" class="nav__link">Sobre mí</a></li>
+                <li><a href="#skills" class="nav__link">Skills</a></li>
+                <li><a href="#projects" class="nav__link">Proyectos</a></li>
+                <li><a href="#contact" class="nav__link nav__link--cta">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hola, mundo. Soy</span>
+                    <h1 class="home__name">Carlos Mena</h1>
+                    <h2 class="home__role">Software Developer</h2>
+                    <p class="home__description">
+                    Desarrollador de Software enfocado en construir <strong>arquitecturas Backend</strong> escalables y eficientes. 
+                    Especializado en el ecosistema <span class="code-highlight">Java</span> y <span class="code-highlight">Python</span>, 
+                    transformo ideas complejas en código limpio, mantenible y de alto rendimiento.
+                    </p>
+                    
+                    <div class="home__buttons">
+                        <a href="#projects" class="button">Ver mi trabajo</a>
+                        <div class="social-links">
+                            <a href="https://github.com/carlosmena3" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/carlosmena3/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="home__img-wrapper">
+                    <img src="assets/images/foto linkedin.jpg" alt="Carlos Mena" class="home__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section__title">Más sobre mí</h2>
+                <div style="max-width: 800px; margin: 0 auto; color: var(--text-gray);">
+                    <p style="margin-bottom: 1.5rem;">
+                        Acabo de finalizar el <strong>Grado Superior en DAM</strong>, donde he adquirido una visión completa del desarrollo de software, desde aplicaciones móviles nativas hasta servicios web.
+                    </p>
+                    <p style="margin-bottom: 1.5rem;">
+                        Durante mi formación, descubrí que donde realmente disfruto es en el <strong>Backend</strong>. Me apasiona resolver problemas lógicos complejos, optimizar consultas SQL y estructurar la arquitectura que hace que las aplicaciones funcionen de forma rápida y segura.
+                    </p>
+                    <p>
+                        He trabajado en proyectos académicos sólidos utilizando <strong>Java (Spring Boot)</strong> y <strong>Python</strong>, y también tengo experiencia desarrollando apps nativas en <strong>Kotlin</strong>. Ahora busco mi primera oportunidad profesional para aportar esta base técnica y seguir aprendiendo en un entorno real.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section__title">Mi Stack Tecnológico</h2>
+            <div class="skills__container container grid">
+                <div class="skill-card">
+                    <i class="fab fa-java skill-icon"></i>
+                    <h3>Java</h3>
+                    <p>Desarrollo robusto y POO.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python skill-icon"></i>
+                    <h3>Python</h3>
+                    <p>Scripting y automatización.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-android skill-icon"></i>
+                    <h3>Kotlin</h3>
+                    <p>Apps nativas Android.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>SQL</h3>
+                    <p>Diseño y gestión de BBDD.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="github-banner container">
+                <div class="github-content">
+                    <h2><i class="fab fa-github"></i> Show me the code</h2>
+                    <p>
+                        He centralizado mis proyectos académicos y personales en GitHub. 
+                        Ahí encontrarás código real, desde algoritmos en Java hasta aplicaciones completas.
+                    </p>
+                    <a href="https://github.com/carlosmena3" target="_blank" class="button button--white">
+                        Explorar mi Repositorio
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <h2 class="section__title">Hablemos</h2>
+            <div class="contact__container container">
+                <p class="contact__description">
+                Actualmente estoy buscando oportunidades laborales a jornada completa como desarrollador 
+                Backend o Full Stack. Si tienes una vacante en tu equipo o simplemente quieres conectar, mi bandeja de entrada está abierta.
+                </p>
+                
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=carlosmenamolina8@gmail.com" target="_blank" class="email-link">
+                    carlosmenamolina8@gmail.com <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content container">
+            
+            <p class="footer__copy">
+                &copy; 2025 Carlos Mena. 
+            </p>
+
+            <p class="footer__text">
+                Diseñado y codificado desde cero con <strong>VS Code</strong>.
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
